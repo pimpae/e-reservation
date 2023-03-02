@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> ระบบการขอใช้ทรัพยากร (E-RESERVATION) ::: สป.พม.  </title> 
+    <link rel="stylesheet" href="https://msobooking.m-society.go.th/css/bootstrap.min.css">
+    <link href="css/main.css" rel="stylesheet" type="text/css" />    
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>   
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"/>  
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css"> 
+	
+   
+	
+</head>
+<body> 
+ 
+  
+	<main class="e-rese">
+		<div class="container position-relative">
+			<h1>จองทรัพยากรอื่นๆ</h1>
+			<div class="col ">
+				<div id="cart">
+					<i class="far fa-shopping-cart"></i>
+					<p>2</p>
+					<div class="shopping-cart">
+						<ul>
+							<li>
+								<img src="images/image1.png" alt="">
+								<h5>เครื่องคอมพิวเตอร์ notebook</h5>
+								<h4>จำนวน <span>1</span> เครื่อง</h4>
+							</li>
+							<li>
+								<img src="images/image1.png" alt="">
+								<h5>เครื่องคอมพิวเตอร์ notebook</h5>
+								<h4>จำนวน <span>1</span> เครื่อง</h4>
+							</li>
+						</ul>
+						<a href="#" class="btn">ดูรถเข็น (2)</a>
+					</div>
+
+				</div>
+
+			</div>
+			<div class="col">
+				<div class="form-search">
+					<form>
+						<div class="form-group row mb-x">
+							<div class="col-md-2">
+								<label>วันที่เริ่มการจอง</label> 
+							</div>
+							<div class="col-md-2">
+								<label>วันที่สิ้นสุดการจอง</label> 
+							</div>
+							<div class="col-md-4">
+								<label>กรอกชื่อรายการ</label> 
+							</div>
+							<div class="col-md-4">
+								<label>เลือกกอง กลุ่ม</label> 
+							</div>
+
+						</div>
+						<div class="form-group row"> 
+							<div class="col-md-4"> 
+								<div class="input-daterange input-group" id="datepicker">
+									<div class="position-relative">
+										<label class="pc-x">วันที่เริ่มการจอง</label> 
+										<input type="text" class="form-control" name="start"  >
+										<i class="far fa-calendar"></i>
+									</div>
+									<span class="rangex mb-x">&nbsp;&nbsp;-&nbsp;&nbsp;</span>
+									<div class="position-relative"> 
+										<label class="pc-x">วันที่สิ้นสุดการจอง</label> 
+										<input type="text" class="form-control" name="end"  >
+										<i class="far fa-calendar"></i>
+									</div>
+								</div>
+							</div>  
+							<div class="col-md-4"> 
+								<label class="pc-x">กรอกชื่อรายการ</label> 
+								<input type="text" class="form-control" placeholder="กรอกชื่อรายการ">
+							</div>
+							<div class="col-md-4">  
+								<label class="pc-x">เลือกกอง กลุ่ม</label> 
+								<select class="selectpicker" title="เลือกกอง กลุ่ม" data-show-subtext="true" data-live-search="true" name="sel2"  id="sel2">  
+									<option>กลุ่ม 1</option>
+									<option>กลุ่ม 2</option> 
+									<option>กลุ่ม 3</option>  
+								</select>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+
+			<div class="col">
+				<div class="row">
+					<div class="col-md-3">
+						<div class="service-box">
+							<img src="images/9.png" class="images">
+							<h4>เครื่องคอมพิวเตอร์ notebook</h4>
+							<h6>กลุ่ม 111</h6>
+							<h6>กอง 111</h6>
+							<h5>ว่าง <span>1</span> เครื่อง</h5>
+							<a href="#" class="btn btn-success">กดจอง</a>
+							<a href="#" class="btn btn-default">ดูตารางการจอง</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="service-box">
+							<img src="images/9.png" class="images">
+							<h4>เครื่องคอมพิวเตอร์ notebook</h4>
+							<h6>กลุ่ม 111</h6>
+							<h6>กอง 111</h6>
+							<h5>ว่าง <span>1</span> เครื่อง</h5>
+							<a href="#" class="btn btn-success">กดจอง</a>
+							<a href="#" class="btn btn-default">ดูตารางการจอง</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="service-box">
+							<img src="images/9.png" class="images">
+							<h4>เครื่องคอมพิวเตอร์ notebook</h4>
+							<h6>กลุ่ม 111</h6>
+							<h6>กอง 111</h6>
+							<h5>ว่าง <span>1</span> เครื่อง</h5>
+							<a href="#" class="btn btn-success">กดจอง</a>
+							<a href="#" class="btn btn-default">ดูตารางการจอง</a>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="service-box">
+							<img src="images/9.png" class="images">
+							<h4>เครื่องคอมพิวเตอร์ notebook</h4>
+							<h6>กลุ่ม 111</h6>
+							<h6>กอง 111</h6>
+							<h5>ว่าง <span>1</span> เครื่อง</h5>
+							<a href="#" class="btn btn-success">กดจอง</a>
+							<a href="#" class="btn btn-default">ดูตารางการจอง</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<ul class="pages">
+					<li>
+						<a href="#">
+							<div><i class="far fa-angle-double-left"></i></div>
+						</a>
+					</li>
+					<li class="active">
+						<a href="#">
+							<div>1</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>2</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>3</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>4</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div>5</div>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<div><i class="far fa-angle-double-right"></i></div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+
+		<div class="footer"> </div>
+	</main>
+	  
+
+	<script src="https://msobooking.m-society.go.th/js/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://msobooking.m-society.go.th/js/bootstrap.min.js"></script>  
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"  ></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.th.min.js"  ></script>  
+  
+	<script>
+		
+		$('.input-daterange').datepicker({
+			format: 'dd-mm-yyyy',
+			clearBtn: true,
+			language: "th",
+			calendarWeeks: false,
+			autoclose: true,
+			todayHighlight: true,
+			toggleActive: true
+		});
+
+		
+		(function(){
+ 
+		$("#cart").on("click", function() {
+			$(".shopping-cart").fadeToggle( "fast");
+		});
+		
+		})();
+
+	</script>
+
+</body>
+</html>
